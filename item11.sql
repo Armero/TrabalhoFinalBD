@@ -1,0 +1,2 @@
+INSERT INTO Nota_Fiscal (Cd_Nota_Fiscal, Cd_Cliente, Dt_Emissão, Dt_Limite_Emissão, Ds_Dados_Adicionais, Ds_Natureza_Operação, Nu_CFOP, Nu_Controle_Formulario)
+VALUES (95, 25, '20161121', '20161122', 'Nada', 'Compra', 1,1);

@@ -1,0 +1,14 @@
+Moficações ERWIN:
+Pais foi modificado para País
+Valor do Peso Líquido e do Peso Bruto, assim como o Nome do Produto foram colocados como atributos do produto
+Removido Nu_Telefone da chave privada
+Retirada a Inscrição Estadual dos atributos de pessoa
+Pessoa Física: Cd_Inscrição_Estadual -> Nu_Inscrição_Estadual
+Ds_Natureza_Operação colocado como atributo de Nota_Fiscal
+Removida a entidade empresa e colocados os atributos dentro de pessoa jurídica
+Removida a relação produto -> pessoa jurídica
+Colocada a quantidade de estoque do produto
+Removido Nm_Bairro de Pessoa Física
+Colocado o código da nota fiscal como atributo do transpotador para que este tenha acesso a informações como o peso do produto a ser transportado
+Ligado o transpotador à nota fiscal
+Em pessoa jurídica e pessoa física foram trocados os nomes de Código pessoa para O respectipo nome do código da entidade
